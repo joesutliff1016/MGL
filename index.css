@@ -48,6 +48,7 @@ font-family: robotoLight;
 letter-spacing: 1px;
 }
 #top_nav {
+letter-spacing: 1px;
 display: none;
 }
 .intro {
@@ -66,20 +67,23 @@ letter-spacing: 1px;
 }
 .smallerFont {
 color: #fff;
-font-size: 2.3rem;
+font-size: 2.6rem;
 font-weight: 200;
 }
 .bigFont {
 color: #fff;
-font-size: 2.3rem;
+font-size: 2.6rem;
 font-weight: 600;
+}
+button:hover {
+cursor: pointer;
 }
 .button1 {
 font-weight: 200;
 border: 1px solid #fff;
 background: none;
 color: #fff;
-padding: 8px 20px;
+padding: 8px 30px;
 margin-top: 15px;
 letter-spacing: 2px;
 }
@@ -555,8 +559,9 @@ font-weight: 600;
 #footer_row4 {
 grid-column: 1/13;
 }
-#map {
-margin: 0 auto;
+/*change back to #map for google maps*/
+#footer_row4 img {
+margin: -10px auto 0 auto;
 width: 150px;
 height: 85px;
 }
@@ -578,7 +583,7 @@ float: left;
 margin: 0;
 display: inline-block;
 list-style-type: none;
-font-size: .8rem;
+font-size: .7rem;
 color: #fff;
 }
 #top_nav li {
